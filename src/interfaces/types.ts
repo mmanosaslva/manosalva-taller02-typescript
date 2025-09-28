@@ -14,7 +14,7 @@ export interface Employee extends User {
 
 export enum Department {
   IT = "IT",
-  HR = "HR",
+  HR = "HR", 
   SALES = "SALES",
   MARKETING = "MARKETING",
 }
