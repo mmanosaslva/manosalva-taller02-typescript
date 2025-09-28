@@ -1,15 +1,16 @@
 {
   "name": "taller-02-typescript",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
+  "version": "1.0.0",
+  "description": "Sistema de gestión de empleados con TypeScript",
   "scripts": {
-    "dev": "vite",
-    "build": "tsc && vite build",
-    "preview": "vite preview"
+    "dev": "ts-node src/main.ts",
+    "build": "tsc",
+    "start": "node dist/main.js"
   },
   "devDependencies": {
-    "typescript": "~5.8.3",
-    "vite": "^7.1.7"
-  }
+    "@types/node": "^20.0.0",
+    "ts-node": "^10.9.0",
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {}
 }
